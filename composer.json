@@ -1,0 +1,16 @@
+{
+    "name": "senemoglu/laraloop",
+    "description": "Sendloop wrapper for Laravel 5",
+    "keywords": ["sendloop", "octeth", "api", "laravel", "wrapper"],
+    "license": "GNU GPL v3",
+    "authors": [
+        {
+            "name": "Batıkan Senemoğlu",
+            "email": "batikan.senemoglu@oto.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "sendloop/sendloop": "3.0.0"
+    }
+}
