@@ -25,3 +25,12 @@ Finally add facades for easy access to Sendloop Methods (optionally, but strongl
     'LaraloopMTA' => Senemoglu\Laraloop\Facades\LaraloopMTA::class
 
 You can look Sendloop Documentations for details about API.
+
+Simple Example For Mta:
+
+    $message = new \Sendloop\MTA\Message();
+    $message->setFrom("Batıkan Senemoğlu", "me@batikansenemoglu.com");
+    $message->setSubject("My sweet subject");
+    $message->setHTMLContent("My sweet content too");
+    
+    $transactionId = LaraloopMTA::send('target@foobarbaz.com', $message);
