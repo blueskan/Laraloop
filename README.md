@@ -12,12 +12,12 @@ First install package:
 Second publish vendor configurations via Artisan CLI:
 
     php artisan vendor:publish
+    
+After this step, config/laraloop.php file will be created, and you can set your API_KEY etc.
 
 Then add service provider into your app.php configuration file:
 
     Senemoglu\Laraloop\LaraloopServiceProvider::class
-    
-After this step, config/laraloop.php file will be created, and you can set your API_KEY etc.
 
 Finally add facades for easy access to Sendloop Methods (optionally, but strongly recommended):
 
