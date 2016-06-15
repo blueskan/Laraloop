@@ -26,7 +26,7 @@ Finally add facades for easy access to Sendloop Methods (optionally, but strongl
 
 You can look Sendloop Documentations for details about API.
 
-Simple Example For Mta:
+#Simple Example For Mta:
 
     $message = new \Sendloop\MTA\Message();
     $message->setFrom("Batıkan Senemoğlu", "me@batikansenemoglu.com");
