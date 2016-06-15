@@ -11,7 +11,8 @@
     ],
     "require": {
         "php": ">=5.2.0",
-        "sendloop/sendloop": "3.0.0"
+        "sendloop/sendloop": "3.0.0",
+        "sendloop/mta-api-php": "1.2.0"
     },
     "autoload": {
         "psr-4": {
