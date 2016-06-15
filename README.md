@@ -3,7 +3,7 @@ Laraloop is a simple wrapper for Sendloop & Sendloop MTA API services, this pack
 
 You can use Sendloop libraries in your controllers or services like Laraloop::methodName() or LaraloopMTA::methodName()
 
-For installation you just follow these simple steps:
+###For installation you just follow these simple steps:
 
 First install package:
 
@@ -26,7 +26,7 @@ Finally add facades for easy access to Sendloop Methods (optionally, but strongl
 
 You can look Sendloop Documentations for details about API.
 
-#Simple Example For Mta:
+###Simple Example For Mta:
 
     $message = new \Sendloop\MTA\Message();
     $message->setFrom("Batıkan Senemoğlu", "me@batikansenemoglu.com");
