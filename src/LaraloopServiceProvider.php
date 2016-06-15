@@ -3,7 +3,7 @@
 use Illuminate\Support\ServiceProvider;
 use Senemoglu\Currency\Services\JsonConvertService;
 
-class CurrencyServiceProvider extends ServiceProvider {
+class LaraloopServiceProvider extends ServiceProvider {
 
     protected $defer = false;
 
